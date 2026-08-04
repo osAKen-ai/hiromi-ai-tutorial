@@ -5,6 +5,13 @@
 >
 > ![第0回生成AIチュートリアル_podcast.mp3](assets/第0回生成AIチュートリアル_podcast.mp3)
 
+> [!tip] 🎬 このセッション録をスライド動画で見る
+> Google Drive のスライド動画です。表示されない場合は下のリンクから開いてください。
+>
+> [スライド動画をGoogle Driveで開く](https://drive.google.com/file/d/1EQt4k8LIMUP0tqC_1UF01aoIOqKcD1jR/view?usp=drive_link)
+
+<iframe src="https://drive.google.com/file/d/1EQt4k8LIMUP0tqC_1UF01aoIOqKcD1jR/preview" width="100%" height="480" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 # 第0回 生成AIチュートリアル — 比呂美さん インテークセッション
 
 > **参加者**: 長田（コーチ）／ 比呂美さん（受講者・正式表記要確認）  
