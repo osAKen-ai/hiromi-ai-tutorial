@@ -1,0 +1,292 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>第2回 生成AIチュートリアル — 比呂美さん</title><style>
+:root{--blue:#123a63;--blue2:#1d5f99;--bg:#f3f6fb;--card:#fff;--text:#1f2937;--muted:#64748b;--green:#166534;--greenbg:#e8f5e9;--border:#dbe4ef;--quote:#2f6f9f}*{box-sizing:border-box}body{margin:0;font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP","Yu Gothic",Meiryo,sans-serif;background:var(--bg);color:var(--text);line-height:1.85}.header{background:linear-gradient(135deg,var(--blue),var(--blue2));color:white;text-align:center;padding:2.6rem 1rem 2.2rem}.header h1{font-size:clamp(1.5rem,4vw,2.35rem);margin:0 0 .5rem}.header .meta{opacity:.92}.container{max-width:980px;margin:0 auto;padding:1.5rem 1rem 4rem}.card,.content section,.content>blockquote,.content>p,.content>ul,.content>ol,.content>table,.content>pre{background:var(--card);border:1px solid var(--border);border-radius:12px;box-shadow:0 1px 4px rgba(15,23,42,.06);padding:1.4rem;margin:0 0 1.15rem}.content h1{display:none}.content h2{margin:2rem 0 1rem;color:var(--blue);border-left:6px solid var(--blue2);padding-left:.7rem}.content h3{margin:1.5rem 0 .7rem;color:#334155}.content p{background:transparent;border:0;box-shadow:none;padding:0;margin:.7rem 0}.content ul,.content ol{padding-left:2.2rem}.content blockquote{border-left:6px solid var(--quote);background:#f8fbff}.content blockquote p:first-child{font-weight:700;color:var(--quote)}mark, .content strong{color:#0f3d63}.infographic-card{text-align:center;padding:1rem}.infographic-card img{max-width:100%;height:auto;border-radius:10px}.audio-callout{background:var(--greenbg);border:1px solid #86efac;border-left:6px solid var(--green);border-radius:12px;padding:1.4rem;margin-bottom:1.2rem}.audio-callout .callout-title{font-weight:700;color:var(--green);font-size:1.1rem}.audio-callout audio{width:100%;margin-top:.8rem}table{width:100%;border-collapse:collapse}th,td{border:1px solid var(--border);padding:.55rem;vertical-align:top}th{background:#eef6ff}pre{overflow:auto;background:#0f172a;color:#e2e8f0}.footer{text-align:center;color:var(--muted);font-size:.9rem;margin-top:2rem}a{color:#0f5e9c}.session-card{display:block;text-decoration:none;color:inherit;background:white;border:1px solid var(--border);border-radius:14px;padding:1.4rem;margin:1rem 0;box-shadow:0 1px 4px rgba(15,23,42,.08)}.badge{display:inline-block;background:#e0f2fe;color:#075985;padding:.2rem .6rem;border-radius:999px;font-size:.82rem}.session-card h2{margin:.6rem 0;color:var(--blue)}.nav{margin-bottom:1rem}.nav a{display:inline-block;background:white;border:1px solid var(--border);border-radius:999px;padding:.35rem .8rem;text-decoration:none}.video-callout{background:#eef6ff;border:1px solid #93c5fd;border-left:6px solid var(--blue2);border-radius:12px;padding:1.4rem;margin-bottom:1.2rem}.video-callout .callout-title{font-weight:700;color:var(--blue);font-size:1.1rem}.drive-video-wrap{position:relative;width:100%;padding-top:56.25%;margin-top:1rem;background:#0f172a;border-radius:10px;overflow:hidden}.drive-video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.video-link{margin:.7rem 0 0}
+</style></head><body><header class="header"><h1>第2回 生成AIチュートリアル</h1><div class="meta">比呂美さん・Ikumiさん｜AIに先に聞く／ファイル検索と音声入力｜2026年8月16日｜osAKen.ai</div></header><main class="container"><div class="nav"><a href="index.html">← 目次へ戻る</a> <a href="第1回生成AIチュートリアル.html">第1回を見る</a></div><section class="card infographic-card"><img src="assets/第2回生成AIチュートリアル_infographic.png" alt="第2回生成AIチュートリアル インフォグラフィック"></section><section class="audio-callout"><div class="callout-title">🎧 Podcast版で聴く</div><div class="callout-desc">NotebookLM Audio Overview が、第2回の要点を対談形式で解説します。</div><audio controls src="assets/第2回生成AIチュートリアル_podcast.mp3"></audio></section><article class="content">
+<h1
+id="第2回-生成aiチュートリアル-姉妹ではじめる手を動かさない仕事のしかた">第2回
+生成AIチュートリアル — 姉妹ではじめる「手を動かさない」仕事のしかた</h1>
+<blockquote>
+<p><strong>参加者</strong>: 長田（コーチ）／ 比呂美さん（受講者）／
+Ikumiさん（比呂美さんのお姉様）<br />
+<strong>日時</strong>:
+2026年8月16日（日）09:57〜11:45頃（約1時間48分）<br />
+<strong>形式</strong>: オンライン（Zoom）<br />
+<strong>位置づけ</strong>:
+第1回実践後のフォローアップおよび音声入力・ファイル検索の深掘り<br />
+<strong>前回</strong>: <a
+href="第1回生成AIチュートリアル.html">第1回生成AIチュートリアル</a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>[!abstract] 概要
+第2回となる今回は、比呂美さんのお姉様であるIkumiさんが初参加し、姉妹でAIを実務に使っていく体制になった。主なトピックは「AIによるファイル検索」と「音声入力AIの導入」の2点。macOS標準のスポットライト検索では資料が見つからないという比呂美さんの悩みに対し、答えを教えるのではなく、比呂美さん自身がChatGPTに聞いて回答を読み上げる形で、ブラウザ版では探せずデスクトップアプリの「ローカル作業」なら探せる、という境界線を確認した。後半では、言い淀みや言い直しをAIが整えてから出力する音声入力アプリ「Typeless」を実演し、Ikumiさんがその場で設定を完了。さらにWixサイトの更新とTimeTreeでのスケジュール管理という、NPO実務そのものの自動化に話が及び、TimeTreeについては長田が調査を持ち帰った。</p>
+</blockquote>
+<hr />
+<h2 id="前回第1回からの宿題報告">🔁 前回（第1回）からの宿題報告</h2>
+<p>第1回で提示した宿題の進捗を、今回の記録から確認できる範囲で整理した。</p>
+<blockquote>
+<p>[!warning]
+前半（約78分）の文字起こしが残っていないため、宿題確認のやりとりが前半で行われていた場合、ここには反映できていない。次回、口頭で拾い直す。</p>
+</blockquote>
+<ul class="task-list">
+<li><label><input type="checkbox" /><strong>①
+ChatGPTのメニューを全部押してみる</strong></label>
+<ul>
+<li><strong>状況</strong>:
+△。比呂美さんは<strong>自分でChatGPTに質問し、返ってきた回答を読み上げて検証する</strong>段階まで来ている（本文2章）。押して確かめる習慣は着実についてきた。残っているのは、アカウントまわりの設定を整えることくらい。</li>
+</ul></li>
+<li><label><input type="checkbox" /><strong>②
+AI基本講習を1〜2本読む/聞く</strong></label>
+<ul>
+<li><strong>状況</strong>: □（今回の記録では確認できず）。</li>
+</ul></li>
+<li><label><input type="checkbox" /><strong>③ NotebookLM／Gemini
+Notebookに資料を入れて試す</strong></label>
+<ul>
+<li><strong>状況</strong>:
+□（今回の記録では確認できず）。今回はファイル検索と音声入力に話題が集中した。</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="姉妹で取り組むai活用体制">1. 姉妹で取り組むAI活用体制</h2>
+<blockquote>
+<p>[!warning] この節は Zoom AI要約ベース</p>
+</blockquote>
+<p>今回から、比呂美さんのお姉様であるIkumiさんがセッションに参加した。Ikumiさんは普段から音声入力を活用しており、ITツールの導入にも積極的な姿勢を見せた。長田は、比呂美さんが構想し、Ikumiさんが実務や設定をサポートするといった、姉妹での共同作業にAIを組み込む形を提案した。</p>
+<hr />
+<h2 id="chatgptによるファイル検索の可能性">2.
+ChatGPTによるファイル検索の可能性</h2>
+<p>比呂美さんは、Mac内のファイル整理が追いつかず、標準のスポットライト検索でも目的の資料が見つからないことに強い不満を抱いていた。「AIにファイルを探させたい」という相談に対し、長田はChatGPTの現状の仕様を整理して回答した。</p>
+<p>この場面で特徴的だったのは、<strong>長田が答えを教えるのではなく、比呂美さん自身がChatGPTに聞き、その回答を読み上げる</strong>という進み方だったことである。比呂美さんが読み上げたChatGPTの回答は次の通り。</p>
+<ul>
+<li><strong>ブラウザ版ChatGPT（Safari等）</strong>:
+パソコン内のローカルファイルを直接見に行くことはできない。検索できるのは、ChatGPTのライブラリに保存したファイル、接続済みのGoogle
+Drive、チャットに添付したファイル、Gmail内のメールと添付ファイル。</li>
+<li><strong>デスクトップアプリ版</strong>:
+「ローカル作業（ワークローカリー）」に切り替えれば、Mac内のファイルを検索できる。</li>
+</ul>
+<p>比呂美さんは実際に「マックの中から<strong>公演名義申請</strong>に関するWord・PDFを探して」という具体的な依頼文まで組み立て、AIが自分のMacの中身を把握して資料を一覧化してくれる可能性に強い関心を示した。</p>
+<hr />
+<h2 id="aiの回答が長すぎる問題と学習プロセス">3.
+「AIの回答が長すぎる」問題と学習プロセス</h2>
+<p>比呂美さんから「ChatGPTの回答が長すぎて読むのが大変」というフィードバックがあった。長田は「自分も以前はそう感じていた」と共感しつつ、次のような見解を示した。</p>
+<ul>
+<li><strong>明示的な指示</strong>:
+「画面に収まる短さで返して」と繰り返し伝えることで、AI側にその傾向を学習させる。</li>
+<li><strong>成長を待つ</strong>:
+根拠のある数値ではないが、使い続けるうちにAIとの呼吸が合い、適切な分量で返ってくるようになる感覚がある（長田の個人的な感想）。</li>
+</ul>
+<p>「昨日はダメでも、今日やったらうまくいく」といった試行錯誤を我慢強く続けることが、AIを自分専用の「執事」に育てるプロセスであると共有された。</p>
+<hr />
+<h2 id="音声入力aitypelessの導入実演">4.
+音声入力AI「Typeless」の導入実演</h2>
+<p>後半では、Ikumiさんが普段から音声入力を使っていることを受け、より高性能な音声入力アプリ「Typeless（タイプレス）」の導入を行った。</p>
+<ul>
+<li><strong>標準機能との違い</strong>:
+iPhoneやMacの標準音声入力（Gemini・ChatGPT・OS標準を含む）は、言葉をそのまま文字にするため、噛んだり・言い直したり・文法が崩れたりすると、そのまま出力されてしまう。長田は自身の滑舌や言い淀みを例に挙げてこの弱点を説明した。Typelessは、話し終えたあとにAIが一度考えてから、整った文章にして出力する。</li>
+<li><strong>導入手順</strong>:
+iPhoneのキーボード設定で「Typeless」を追加し、「フルアクセスを許可」に設定。地球儀マークの長押しで切り替える。</li>
+<li><strong>実演</strong>:
+Ikumiさんが即座にインストールと設定を完了。実際にLINEの入力画面で長めに話し、「考えている（シンキング）」時間を経て、正確で整った文章が出力される様子を確認し、その精度の高さに驚きの声が上がった。</li>
+</ul>
+<p>長田からは、iPhoneとMacで同じGoogleアカウント等を使ってログインし、環境を揃えておくことの重要性も補足された。</p>
+<hr />
+<h2 id="実務への応用相談wixtimetreeパスワード">5.
+実務への応用相談（Wix・TimeTree・パスワード）</h2>
+<p>セッション終盤では、具体的な実務の自動化について議論された。</p>
+<ul>
+<li><strong>Wixサイトの更新</strong>: Ikumiさん側のサイトは
+<strong>Wix</strong>
+で運用されている。比呂美さんの「どうしたら自動でできますか、と相談していけばいいということですね？」という問いに、長田は「それをとにかく追求していけば、<strong>絶対に手を動かさないでできるようになります</strong>」と答えた。</li>
+<li><strong>スケジュール管理（TimeTree）</strong>:
+比呂美さんは既に、TimeTreeとの連携についてChatGPT（チャッピー）に<strong>2回相談しており、最終的に「できません」という回答を受け取っていた</strong>。それでも「こんな方法はどう？と別の聞き方をしてみる手はあるか」と食い下がる姿勢を見せた。長田は「これは少し上級コースなので、<strong>今回はタイムツリーは私が調べて回答します</strong>」と引き取った。</li>
+<li><strong>AIに聞いてから人に聞く</strong>:
+長田から運用ルールが1つ示された。「<strong>私に聞く前にAIに聞いて、AIが満足に答えてくれなかった時に私に聞く</strong>、という順番なら、いくらでもオッケーです」。</li>
+<li><strong>セキュリティの考え方</strong>:
+パスワードやログインの管理がツール導入の足かせになる場面があり、保存の仕組みとセキュリティ意識についても触れられた（具体的な資格情報は本記録では扱わない）。慎重に確かめながら進む比呂美さんと、その場で入れて動かしてみるIkumiさんの対照的な進み方が、姉妹で組む強みとして表れた。</li>
+</ul>
+<hr />
+<h2 id="本日習得したスキル実践事項">📚 本日習得したスキル・実践事項</h2>
+<ul>
+<li><strong>ChatGPTの使い分け習得</strong>:
+ブラウザ版とデスクトップアプリ版の検索範囲の違い（Work with
+Apps）の理解。</li>
+<li><strong>高度音声入力の導入</strong>:
+Typelessのインストール、キーボード設定、フルアクセス許可、実践利用。</li>
+<li><strong>AIとのコミュニケーション</strong>:
+回答が長い場合の対処法と、AIを「育てる」というマインドセットの獲得。</li>
+</ul>
+<hr />
+<h2 id="これまでの学習スキル年表累計">📜
+これまでの学習スキル年表（累計）</h2>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">回</th>
+<th style="text-align: left;">日付</th>
+<th style="text-align: left;">習得スキル・トピック</th>
+<th style="text-align: left;">実務への応用イメージ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">2026-08-03</td>
+<td style="text-align: left;">AI活用の全体像、インテーク診断</td>
+<td
+style="text-align: left;">AIを「執事」と定義し、事務作業を任せる決意</td>
+</tr>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">2026-08-04</td>
+<td style="text-align: left;">ChatGPTプロジェクト、NotebookLM基礎</td>
+<td style="text-align: left;">NPO資料のクイズ化・音声化・図解化</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2026-08-16</td>
+<td
+style="text-align: left;">ローカルファイル検索、Typeless音声入力</td>
+<td
+style="text-align: left;">フォルダ整理の自動化、言い淀みのない文章入力</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="これからの進め方-次回第3回合意事項">🚀 これからの進め方 ＆
+次回（第3回）合意事項</h2>
+<pre class="mermaid"><code>graph LR
+    A[Typeless活用] --&gt; B{AI執事化}
+    C[TimeTree調査] --&gt; B
+    D[Wix自動化相談] --&gt; B
+    B --&gt; E[事務局業務の半自動化]</code></pre>
+<ul class="task-list">
+<li><label><input
+type="checkbox" /><strong>Typelessを日常的に使う</strong>
+(比呂美さん・Ikumiさん)</label>
+<ul>
+<li>LINE、メール、ChatGPTへのプロンプト入力などで「喋って入力」を試す。</li>
+</ul></li>
+<li><label><input
+type="checkbox" /><strong>TimeTree連携の調査・回答</strong>
+(長田)</label>
+<ul>
+<li>AIとスケジュール管理の最適な繋ぎ方を提示する。</li>
+</ul></li>
+<li><label><input type="checkbox" /><strong>ファイル検索の試行</strong>
+(比呂美さん)</label>
+<ul>
+<li>デスクトップアプリ版で「ローカル作業」に切り替え、特定のフォルダを対象に検索ができるか試す。</li>
+</ul></li>
+<li><label><input type="checkbox" /><strong>先にAIに聞く</strong>
+(比呂美さん・Ikumiさん)</label>
+<ul>
+<li>長田に聞く前にAIへ聞き、満足のいく答えが出なかったものを持ち寄る。</li>
+</ul></li>
+</ul>
+<p><strong>次回（第3回）予定</strong>: 2026年8月28日（金）20:00〜</p>
+<p><strong>次回に長田が持ち込む論点</strong>: -
+TimeTreeとAIの連携について、調査結果の回答（本文5章の持ち帰り宿題） -
+その前提として、<strong>日程調整とファイル管理の「どこが苦手なのか」を具体的な出来事レベルで聞き取る</strong>。予定はどこから届き、どの段階で面倒になり、最終的にどこへ記録し、誰と共有しているのか。ファイルも同様に「最近見つからなくて困った一件」から入る。
+-
+聞き取りの結果によっては、TimeTreeを使い続けるのではなく、<strong>AppleカレンダーやGoogleカレンダーへ寄せる</strong>方が素直な解になる可能性もある。ツールを足す前に、そこを見極める。</p>
+<hr />
+<h2 id="コーチング全体ロードマップ">🗺️ コーチング全体ロードマップ</h2>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 29%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">フェーズ</th>
+<th style="text-align: center;">ステータス</th>
+<th style="text-align: left;">重点テーマ</th>
+<th style="text-align: left;">具体的アクション</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Phase 1: 導入</strong></td>
+<td style="text-align: center;">完了</td>
+<td style="text-align: left;">ツール設定とマインドセット</td>
+<td
+style="text-align: left;">主要AIの契約、Typeless導入、執事の概念理解</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Phase 2:
+実践（現在）</strong></td>
+<td style="text-align: center;">進行中</td>
+<td style="text-align: left;">事務作業のAI置換</td>
+<td
+style="text-align: left;">音声入力での文書作成、ファイル検索、スケジュール管理</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Phase 3:
+深化（短期）</strong></td>
+<td style="text-align: center;">予定</td>
+<td style="text-align: left;">専門業務の自動化</td>
+<td
+style="text-align: left;">申請書作成、Wix更新支援、協賛依頼文生成</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Phase 4:
+確立（中期）</strong></td>
+<td style="text-align: center;">予定</td>
+<td style="text-align: left;">組織的なAI活用</td>
+<td
+style="text-align: left;">姉妹＋AIでの事務局体制確立、写真・動画整理</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="残された課題と懸念">⚠️ 残された課題と懸念</h2>
+<ul>
+<li><strong>[今回新た] 文字起こしの欠落</strong>:
+セッション前半約78分間の文字起こしが Zoom
+側に残っていない（原因は特定できていない。録画も取得していないため復元手段がない）。本記録の前半部分は
+Zoom
+AI要約に基づく。今後の回では、開始直後に文字起こしが動いているかを確認する、または録画を併用するなど、記録の堅牢性を高める必要がある。</li>
+<li><strong>[今回新た] アカウント情報の置き場所</strong>:
+新しいアプリを入れるたびに、ログイン情報の確認に時間がかかる場面があった。ツールを増やすほど効いてくるので、どこに何のアカウントがあるかを一度そろえておくと、以降がずっと軽くなる。</li>
+<li><strong>[第1回より持ち越し] 画面共有の習熟</strong>:
+Zoomでの画面共有や操作説明をよりスムーズに行えるよう、慣れが必要。</li>
+</ul>
+<hr />
+<h2 id="claudian注釈">📘 Claudian注釈</h2>
+<p><strong>①
+比呂美さんのChatGPTが「できません」と答えたのは、半分正しく半分古い。</strong>
+TimeTreeは<strong>公式APIを2023年12月22日で終了</strong>している。したがって「公式APIで連携する」という道は実際に閉じており、ChatGPTの回答はその点では正しい。ただし現在は、TimeTreeのWeb内部APIを使うコミュニティ製のMCPサーバー（<code>ehs208/TimeTree-MCP</code>）が存在し、予定の読み取り・登録・変更・削除・繰り返し予定まで扱える。<strong>「できない」ではなく「公式の道は無い／非公式の道はある」</strong>が正確な現在地であり、次回への長田の宿題はここから始まる。</p>
+<p><strong>② Wixは逆に、公式が正面から用意している。</strong>
+Ikumiさん側のWixサイトについては、<strong>Wix公式のMCPサーバー</strong>があり、AIツールからサイトのデータやAPIへ接続できる。TimeTreeとは対照的に、こちらは「非公式の抜け道」を通る必要がない。</p>
+<p><strong>③
+ただし、両方とも「導入していい相手か」は技術と別の問題。</strong>
+壊れたときに直せる人がその場にいるか、という運用の話が残る。詳細な調査と判断は別ドキュメントに分けた（本文末尾「関連」参照）。</p>
+<p><strong>④
+今回いちばん効いたのは、実はTypelessではなく順番の合意。</strong>
+「AIに先に聞き、満足に答えが出なかったら長田に聞く」というルールは、比呂美さんが自分でChatGPTに聞き、その回答を読み上げるという今回の進み方そのものと一致している。ツールが増えるほど、この順番が効いてくる。</p>
+<hr />
+<h2 id="印象に残った発言">💬 印象に残った発言</h2>
+<ul>
+<li><strong>Ikumiさん</strong>:
+「私は、何を言っても自分のこうしたいという気持ちを大切にして諦めないっていうのが、生きてく間の、やっぱり大事なことなんだなあというふうに思いました」</li>
+<li><strong>比呂美さん</strong>:
+「今の最後のタイプ（Typeless）が強烈すぎて、前のことがちょっと忘れちゃって、あとで何か送ってもらって、もう一回見ようって思ってます」</li>
+<li><strong>長田</strong>:
+「それをとにかく追求していくと、絶対に手を動かさないでできるようになりますから」</li>
+<li><strong>長田</strong>:
+「私に聞く前にAIに聞いて、AIが満足に答えてくれなかった時には私に聞く、という順番だったら、いくらでもオッケーです」</li>
+<li><strong>長田</strong>:
+「スケジュールとファイル整理。これを突破したらあとはもう楽勝ですよ」</li>
+<li><strong>Ikumiさん</strong>:
+「やらねば、みたいな感じになってきちゃった」</li>
+</ul>
+
+</article><div class="footer">© osAKen.ai / NEXTBOOK株式会社</div></main></body></html>
